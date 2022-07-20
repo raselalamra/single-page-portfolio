@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #EFEFEF;
+    font-family: 'Quicksand', sans-serif;
+}
+/* container class */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* nav bar start */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #151d38;
+    color: #ffffff;
+}
+
+.nav-container {
+    height: 100px;
+    display:flex;
+    align-items: center;
+}
+
+.nav-item-container {
+    margin-left: auto;
+    display: flex;
+}
+.brand h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.nav-item {
+    margin-left: 24px;
+}
+/*  */
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* profile-card-container start */
+.profile-card-container {
+    width: 100%;
+    height: 470px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+}
+
+.profile-picture-container {
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-square-container {
+    width: 370px;
+    height: 370px;
+    border: 5px solid #151d38;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-circle-container {
+    width: 305px;
+    height: 305px;
+    border: 5px solid #151d38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.image-circle-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.profile-info-container {
+    width: 930px;
+}
+.profile-info {
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.profile-name {
+    font-size:36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #555555;
+    margin-top: 7px;
+}
+
+.icons i {
+    margin-top: 41px;
+    width: 25px;
+    height: 25px;
+}
+.skill-chips {
+    display: flex;
+    margin-top: 20px;
+}
+.skill-chip {
+    background-color: #151d38;
+    padding: 8px 7px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 13px;
+}
+.profile-bio {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #555555;
+    margin-top: 42px;
+    margin-right: 147px;
+}
+
+/* my skills section start */
+
+.my-skills-section {
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 35px 40px;
+    
+}
+
+.section-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-item-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.text-container {
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.text-container h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+
+.text-container h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 00.04em;
+    color: #555555;
+    margin-top: 6px;
+}
+
+.text-container p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 00.04em;
+    color: #555555;
+    margin-top: 12px;
+}
+
+/* my experience section */
+
+
+.my-experience-section {
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 35px 40px;
+
+}
+
+.experiences-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience-item {
+    margin-top: 22px;
+}
+
+.experience-item h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.experience-item h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #333333;
+
+}
+.experience-item p {
+    width: 446px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #555555;
+}
+
+.my-portfolio-section {
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 35px 40px;
+}
+
+.portfolio-container {
+    display: flex;
+}
+
+.portfolio-item {
+    margin-top: 22px;
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.portfolio-item h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #333333;
+
+}
+.portfolio-item p {
+    width: 446px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #555555;
+}
+
+.portfolio-item {
+    height: 300px;
+    margin-top: 15px;
+    margin-right: 32px;
+    padding-left: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+} 
